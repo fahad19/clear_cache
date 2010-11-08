@@ -12,6 +12,7 @@
  * @author Fahad Ibnay Heylaal <contact@fahad19.com>
  * @copyright Copyright 2010, Fahad Ibnay Heylaal <contact@fahad19.com>
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
+ * @link http://fahad19.com/blog/clear-cache-plugin-for-cakephp
  */
 class ClearCacheShell extends Shell {
 /**
