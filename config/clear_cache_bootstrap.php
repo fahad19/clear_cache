@@ -1,0 +1,3 @@
+<?php
+	Croogo::hookAdminMenu('ClearCache');
+

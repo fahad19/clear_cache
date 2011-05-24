@@ -15,34 +15,15 @@
  * @link http://fahad19.com/blog/clear-cache-plugin-for-cakephp
  */
 class ClearCacheShell extends Shell {
+    var $uses = array('ClearCache.ClearCacheClearCache');
 /**
  * Delete all cache files starting with 'cake_'
  *
  * Usage: ./cake clear_cache all
  */
     public function all() {
-        $this->__delete();
+        $this->ClearCacheClearCache->delete();
         $this->out('Cleared!');
     }
-
-    private function __delete($path = null) {
-        if (!$path) {
-            $path = TMP . 'cache' . DS;
-        }
-        $dirItems = scandir($path);
-        $ignore = array('.', '..');
-        foreach ($dirItems AS $dirItem) {
-            if (in_array($dirItem, $ignore)) {
-                continue;
-            }
-            
-            if (is_dir($path . $dirItem)) {
-                $this->__delete($path . $dirItem . DS);
-            } elseif (substr($dirItem, 0, 5) == 'cake_') {
-                unlink($path . $dirItem);
-            }
-        }
-    }
-
 }
-?>
+
