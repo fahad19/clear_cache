@@ -1,0 +1,8 @@
+name: Clear Cache
+description: CakePHP plugin/shell for deleting all cache files in TMP with a single command.
+
+author: Fahad Ibnay Heylaal
+authorEmail: contact@fahad19.com
+authorUrl: https://github.com/fahad19/clear_cache
+
+
