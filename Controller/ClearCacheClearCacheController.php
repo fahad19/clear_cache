@@ -6,7 +6,7 @@ class ClearCacheClearCacheController extends ClearCacheAppController {
 	 */
 	public function admin_clear() {
 		$this->ClearCacheClearCache->delete();
-		$this->Session->setFlash(__('Cache has been cleared.', true), 'default', array('class' => 'success'));
+		$this->Session->setFlash(__('Cache has been cleared.'), 'default', array('class' => 'success'));
 		$this->redirect('/admin');
 	}
 }
