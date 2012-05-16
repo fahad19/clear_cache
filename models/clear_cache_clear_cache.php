@@ -3,7 +3,7 @@ class ClearCacheClearCache extends ClearCacheAppModel {
 	var $name = 'ClearCacheClearCache';
 	var $useTable = false;
 
-	public function delete($path = null) {
+	public function delete($path = null, $recursive = true) {
 		if (!$path) {
 			$path = TMP . 'cache' . DS;
 		}
@@ -14,7 +14,7 @@ class ClearCacheClearCache extends ClearCacheAppModel {
 				continue;
 			}
 
-			if (is_dir($path . $dirItem)) {
+			if (is_dir($path . $dirItem) && $recursive) {
 				$this->delete($path . $dirItem . DS);
 			} elseif (substr($dirItem, 0, 5) == 'cake_') {
 				unlink($path . $dirItem);
