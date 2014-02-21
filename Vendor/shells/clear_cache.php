@@ -20,7 +20,7 @@ class ClearCacheShell extends Shell
 /**
  * Delete all cache files starting with 'cake_'
  *
- * Usage: ./cake clear_cache all
+ * Usage: ./cake clear_caches all
  */
     public function all() 
     {
