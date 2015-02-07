@@ -2,11 +2,8 @@
 	Croogo::hookAdminMenu('ClearCache');
 
 
-CroogoNav::add('sidebar', 'settings', array(
-	
-	'weight' => 60,
-	'children' => array(
-		'site' => array(
+CroogoNav::add('sidebar', 'settings.children.clearcache', array(
+
 			'title' => __d('croogo', 'Clear Cache'),
 			'url' => array(
 				'admin' => true,
@@ -15,8 +12,5 @@ CroogoNav::add('sidebar', 'settings', array(
 				'action' => 'admin_clear',
 				
 			),
-			'weight' => 10,
-		),
-
-	),
+			'weight' => 100,
 ));
