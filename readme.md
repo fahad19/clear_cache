@@ -12,9 +12,9 @@ From the command line:
 
 Or access from a web browser:
 
-    http://yourapplocation//admin/clear_cache/clear_cache/clear
+    http://yourapplocation/admin/clear_cache/clear_cache/clear
 
-Or activate within Croogo and access it from the admin at **Extensions** > **Clear Cache**.
+Or activate within Croogo and access it from the admin at **Extensions** > **Clear Cache** and then you find Clear Cache on  Settings > Clear Cache 
 
 ## Links
 
