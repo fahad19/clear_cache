@@ -15,7 +15,7 @@
   "require": {
     "php": ">=5.3.10",
     "croogo/croogo": "~2.1",
-    "cakephp/cakephp": "~2.5",
+    "cakephp/cakephp": "~2.5"
   },
   "extra": {
     "installer-name": "ClearCache"
