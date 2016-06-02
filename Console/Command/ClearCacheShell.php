@@ -23,7 +23,7 @@ class ClearCacheShell extends Shell {
  */
     public function all() {
         $this->ClearCache->delete();
-        $this->out('Cleared!');
+        $this->out(__d('clear_cache','Cleared!', true));
     }
 }
 

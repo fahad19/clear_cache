@@ -1,0 +1,32 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0\n"
+"POT-Creation-Date: 2016-06-03 01:20+0100\n"
+"PO-Revision-Date: 2016-06-03 01:20+0100\n"
+"Last-Translator: Alain <Martini>\n"
+"Language-Team: inalto.com <webmaster@inalto.com>\n"
+"Language: ita\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Bookmarks: 664,-1,463,-1,291,346,725,-1,-1,247\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: Config/bootstrap.php:7
+msgid "Clear Cache"
+msgstr "Svuota Cache"
+
+#: Console/Command/ClearCacheShell.php:26
+msgid "Cleared!"
+msgstr "Svuotata!"
+
+#: Controller/ClearCacheController.php:8;10
+msgid "Cache has been cleared."
+msgstr "La cache è stata svuotata."
+

@@ -10,7 +10,13 @@
       "name": "Martini Multimedia s.a.s.",
       "email": "webmaster@inalto.com",
       "homepage": "http://github.com/inalto/"
+    },
+    {
+      "name" : "Fahad Ibnay Heylaal",
+      "email" : "contact@fahad19.com",
+      "homepage" : "https://github.com/fahad19/clear_cache"
     }
+
   ],
   "require": {
     "php": ">=5.3.10",
