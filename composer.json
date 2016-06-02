@@ -1,0 +1,29 @@
+{
+  "name": "inalto/clear-cache",
+  "type": "croogo-plugin",
+  "description": "ClearCache plugin for Croogo.",
+  "homepage": "http://github.com/inalto/ClearCache",
+  "keywords": ["cakephp", "croogo", "plugin","cache"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martini Multimedia s.a.s.",
+      "email": "webmaster@inalto.com",
+      "homepage": "http://github.com/inalto/"
+    },
+    {
+      "name" : "Fahad Ibnay Heylaal",
+      "email" : "contact@fahad19.com",
+      "homepage" : "https://github.com/fahad19/clear_cache"
+    }
+
+  ],
+  "require": {
+    "php": ">=5.3.10",
+    "croogo/croogo": "~2.1",
+    "cakephp/cakephp": "~2.5"
+  },
+  "extra": {
+    "installer-name": "ClearCache"
+  }
+}
